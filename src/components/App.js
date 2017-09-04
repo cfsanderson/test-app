@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import About from './About'
 // import logo from './logo.svg';
-import './App.css';
+// import '../styles/_App.scss';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <h1>Portfolio</h1>
         </div>
         <p className="App-intro">A new create-react-app that might turn into a portfolio site.</p>
+        <About/>
       </div>
     );
   }
